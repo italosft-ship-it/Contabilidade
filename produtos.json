@@ -1,0 +1,606 @@
+{
+  "config": {
+    "instagram": "https://www.instagram.com/beerstoreochopp/",
+    "happyHour": {
+      "inicio": "14:00",
+      "fim": "19:40",
+      "titulo": "HAPPY HOUR",
+      "texto": "Caipiroscas especiais no horário promocional."
+    }
+  },
+  "categorias": [
+    {
+      "id": "pratos",
+      "titulo": "Pratos principais",
+      "subtitulo": "Tábuas completas para compartilhar",
+      "tipo": "food",
+      "produtos": [
+        {
+          "nome": "Filet Beer Store",
+          "descricao": "Prato assinatura da casa. Serve bem 2 ou 4 pessoas.",
+          "preco": "R$ 85,00 / R$ 138,00",
+          "imagem": "imagens/filet-beer-store.webp",
+          "destaque": true,
+          "selo": "Mais pedido"
+        },
+        {
+          "nome": "Filet com fritas",
+          "descricao": "Filet em cubos com batatas fritas. Serve 2 ou 4 pessoas.",
+          "preco": "R$ 78,00 / R$ 125,00",
+          "imagem": "imagens/filet-com-fritas.webp",
+          "destaque": true,
+          "selo": "3º em vendas"
+        },
+        {
+          "nome": "Frango na tábua",
+          "descricao": "Cubos de frango grelhado. Serve 2 ou 4 pessoas.",
+          "preco": "R$ 68,00 / R$ 86,00",
+          "imagem": "imagens/tabua-especial.webp"
+        },
+        {
+          "nome": "Filet ao cheddar",
+          "descricao": "Filet em cubos com cheddar. Serve 2 ou 4 pessoas.",
+          "preco": "R$ 65,00 / R$ 95,00",
+          "imagem": "imagens/filet-com-fritas.webp"
+        },
+        {
+          "nome": "Filet barbecue",
+          "descricao": "Filet em cubos com molho barbecue. Serve 2 ou 4 pessoas.",
+          "preco": "R$ 68,00 / R$ 98,00",
+          "imagem": "imagens/filet-com-fritas.webp"
+        },
+        {
+          "nome": "Tábua especial",
+          "descricao": "Variedade de espetos, fritas, calabresa e acompanhamentos. Serve 2 ou 4 pessoas.",
+          "preco": "R$ 86,00 / R$ 132,00",
+          "imagem": "imagens/tabua-especial.webp",
+          "destaque": true
+        },
+        {
+          "nome": "Tábua marítima",
+          "descricao": "Camarões, bolinhos de bacalhau e acompanhamentos do mar.",
+          "preco": "R$ 98,00",
+          "imagem": "imagens/tabua-maritima.webp"
+        },
+        {
+          "nome": "Camarão alho e óleo",
+          "descricao": "Camarões ao alho e óleo para compartilhar.",
+          "preco": "R$ 92,00",
+          "imagem": "imagens/tabua-maritima.webp"
+        },
+        {
+          "nome": "Camarão catupiry",
+          "descricao": "Camarões recheados e empanados.",
+          "preco": "R$ 92,00",
+          "imagem": "imagens/tabua-maritima.webp"
+        },
+        {
+          "nome": "Camarão especial premium",
+          "descricao": "Camarões premium grelhados com acompanhamentos.",
+          "preco": "R$ 156,00",
+          "imagem": "imagens/tabua-maritima.webp"
+        },
+        {
+          "nome": "Sinfonia do mar",
+          "descricao": "Seleção premium de frutos do mar.",
+          "preco": "R$ 188,00",
+          "imagem": "imagens/tabua-maritima.webp"
+        }
+      ]
+    },
+    {
+      "id": "petiscos",
+      "titulo": "Petiscos",
+      "subtitulo": "Para acompanhar chopp, cerveja e bons momentos",
+      "tipo": "food",
+      "produtos": [
+        {
+          "nome": "Bolinho de bacalhau",
+          "descricao": "8 unidades. Acompanha molho da casa.",
+          "preco": "R$ 48,00",
+          "imagem": "imagens/bolinho-bacalhau.webp"
+        },
+        {
+          "nome": "Bolinho de carne de sol",
+          "descricao": "8 unidades. Acompanha molho da casa.",
+          "preco": "R$ 48,00",
+          "imagem": "imagens/bolinho-bacalhau.webp"
+        },
+        {
+          "nome": "Espetos Beer Store",
+          "descricao": "Espetos variados da casa.",
+          "preco": "R$ 22,00",
+          "imagem": "imagens/espetos-beer-store.webp"
+        },
+        {
+          "nome": "Queijo à milanesa",
+          "descricao": "Porção crocante com molho da casa.",
+          "preco": "R$ 48,00",
+          "imagem": "imagens/queijo-milanesa.webp"
+        },
+        {
+          "nome": "Salaminho com queijos",
+          "descricao": "Petisco clássico para compartilhar.",
+          "preco": "R$ 55,00",
+          "imagem": "imagens/salaminho-queijos.webp"
+        },
+        {
+          "nome": "Pastéis especiais",
+          "descricao": "8 unidades nos sabores da casa.",
+          "preco": "R$ 45,00",
+          "imagem": "imagens/espetos-beer-store.webp"
+        },
+        {
+          "nome": "Patolas de caranguejo",
+          "descricao": "12 unidades. Acompanha molho da casa.",
+          "preco": "R$ 48,00",
+          "imagem": "imagens/tabua-maritima.webp"
+        },
+        {
+          "nome": "Batata frita com cheddar",
+          "descricao": "Batata frita com cheddar cremoso.",
+          "preco": "R$ 38,00",
+          "imagem": "imagens/queijo-milanesa.webp"
+        },
+        {
+          "nome": "Tábua de frios",
+          "descricao": "Frios, queijos e acompanhamentos para compartilhar.",
+          "preco": "Consulte",
+          "imagem": "imagens/tabua-frios.webp"
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "titulo": "Bebidas",
+      "subtitulo": "Chopp, cervejas, drinks, sem álcool e cafés",
+      "tipo": "drink",
+      "grupos": [
+        {
+          "titulo": "Chopp",
+          "imagem": "imagens/chopp-caneca.svg",
+          "produtos": [
+            {
+              "nome": "Chopp Stella Artois",
+              "descricao": "300ml / 400ml / 500ml",
+              "preco": "R$ 12,00 / R$ 16,00 / R$ 18,00"
+            },
+            {
+              "nome": "Chopp Brahma",
+              "descricao": "300ml / 400ml / 500ml",
+              "preco": "R$ 10,00 / R$ 13,00 / R$ 15,50"
+            },
+            {
+              "nome": "Chopp Heineken",
+              "descricao": "300ml / 400ml / 500ml",
+              "preco": "R$ 12,50 / R$ 17,00 / R$ 20,00"
+            },
+            {
+              "nome": "Chopp de vinho",
+              "descricao": "300ml / 400ml / 500ml",
+              "preco": "R$ 15,00 / R$ 17,00 / R$ 19,00"
+            },
+            {
+              "nome": "Chopp 600 Brahma",
+              "descricao": "Caneca 600ml",
+              "preco": "R$ 18,00"
+            },
+            {
+              "nome": "Chopp 600 Stella",
+              "descricao": "Caneca 600ml",
+              "preco": "R$ 22,00"
+            },
+            {
+              "nome": "Chopp 600 Heineken",
+              "descricao": "Caneca 600ml",
+              "preco": "R$ 24,00"
+            }
+          ]
+        },
+        {
+          "titulo": "Torres de chopp",
+          "imagem": "imagens/torre-chopp.svg",
+          "produtos": [
+            {
+              "nome": "Torre Stella Artois",
+              "descricao": "2,5L / 3,5L",
+              "preco": "R$ 92,00 / R$ 122,00"
+            },
+            {
+              "nome": "Torre chopp de vinho",
+              "descricao": "2,5L / 3,5L",
+              "preco": "R$ 75,00 / R$ 110,00"
+            },
+            {
+              "nome": "Torre Heineken",
+              "descricao": "2,5L / 3,5L",
+              "preco": "R$ 92,00 / R$ 132,00"
+            }
+          ]
+        },
+        {
+          "titulo": "Cervejas long neck",
+          "imagem": "imagens/cerveja-longneck.svg",
+          "produtos": [
+            {
+              "nome": "Heineken",
+              "preco": "R$ 16,20"
+            },
+            {
+              "nome": "Heineken zero álcool",
+              "preco": "R$ 17,00"
+            },
+            {
+              "nome": "Stella Artois",
+              "preco": "R$ 15,50"
+            },
+            {
+              "nome": "Stella Pure Gold",
+              "preco": "R$ 16,20"
+            },
+            {
+              "nome": "Spaten",
+              "preco": "R$ 14,00"
+            },
+            {
+              "nome": "Budweiser",
+              "preco": "R$ 14,00"
+            },
+            {
+              "nome": "Corona",
+              "preco": "R$ 17,00"
+            },
+            {
+              "nome": "Brahma",
+              "preco": "R$ 12,00"
+            },
+            {
+              "nome": "Estrella Galicia",
+              "preco": "R$ 16,20"
+            }
+          ]
+        },
+        {
+          "titulo": "Cervejas 600ml",
+          "imagem": "imagens/cerveja-longneck.svg",
+          "produtos": [
+            {
+              "nome": "Heineken 600ml",
+              "preco": "R$ 23,00"
+            },
+            {
+              "nome": "Stella Artois 600ml",
+              "preco": "R$ 20,50"
+            },
+            {
+              "nome": "Budweiser 600ml",
+              "preco": "R$ 18,00"
+            },
+            {
+              "nome": "Spaten 600ml",
+              "preco": "R$ 18,00"
+            },
+            {
+              "nome": "Becks 600ml",
+              "preco": "R$ 18,00"
+            },
+            {
+              "nome": "Original 600ml",
+              "preco": "R$ 18,50"
+            },
+            {
+              "nome": "Stella Galicia 600ml",
+              "preco": "R$ 24,00"
+            }
+          ]
+        },
+        {
+          "titulo": "Coquetéis clássicos",
+          "imagem": "imagens/drink-caipirosca.svg",
+          "produtos": [
+            {
+              "nome": "Gin Tônica tradicional",
+              "preco": "R$ 18,00 / R$ 23,00 / R$ 40,00"
+            },
+            {
+              "nome": "Dry Martini",
+              "preco": "R$ 30,00"
+            },
+            {
+              "nome": "Caipifrutas",
+              "descricao": "Morango, kiwi, abacaxi ou maracujá",
+              "preco": "R$ 27,00 / R$ 36,00 / R$ 40,00"
+            },
+            {
+              "nome": "Caipirosca Tradicional Limão",
+              "preco": "R$ 22,00 / R$ 32,00 / R$ 38,00"
+            },
+            {
+              "nome": "Caipifruta Smirnoff",
+              "preco": "R$ 24,00"
+            },
+            {
+              "nome": "Caipirinha tradicional Limão",
+              "preco": "R$ 18,00 / R$ 16,00"
+            },
+            {
+              "nome": "Alexander",
+              "preco": "R$ 30,00"
+            },
+            {
+              "nome": "Cocktail de frutas sem álcool",
+              "preco": "R$ 22,00"
+            }
+          ]
+        },
+        {
+          "titulo": "Bebidas sem álcool",
+          "imagem": "imagens/bebidas-sucos.svg",
+          "produtos": [
+            {
+              "nome": "Refrigerante",
+              "preco": "R$ 9,00"
+            },
+            {
+              "nome": "Água mineral sem gás",
+              "preco": "R$ 6,00"
+            },
+            {
+              "nome": "Água mineral com gás",
+              "preco": "R$ 7,00"
+            },
+            {
+              "nome": "Água tônica",
+              "preco": "R$ 12,00"
+            },
+            {
+              "nome": "Schweppes Tônica / Citrus",
+              "preco": "R$ 12,00"
+            },
+            {
+              "nome": "Água de coco natural",
+              "descricao": "300ml / 500ml",
+              "preco": "R$ 9,00 / R$ 15,00"
+            },
+            {
+              "nome": "Água de coco jarra",
+              "preco": "R$ 25,50"
+            },
+            {
+              "nome": "Sucos naturais 300ml",
+              "descricao": "Limão, cajá, maracujá ou cajú",
+              "preco": "R$ 9,00"
+            },
+            {
+              "nome": "Sucos naturais 500ml",
+              "descricao": "Limão, cajá, maracujá ou cajú",
+              "preco": "R$ 15,00"
+            },
+            {
+              "nome": "Sucos naturais jarra",
+              "preco": "R$ 25,50"
+            },
+            {
+              "nome": "Suco de uva integral",
+              "preco": "R$ 12,00"
+            },
+            {
+              "nome": "Energético Red Bull",
+              "preco": "R$ 22,00"
+            },
+            {
+              "nome": "H2O!",
+              "preco": "R$ 12,00"
+            }
+          ]
+        },
+        {
+          "titulo": "Doses",
+          "imagem": "imagens/whisky-garrafa.svg",
+          "produtos": [
+            {
+              "nome": "Ron Bacardi Carta Ouro",
+              "preco": "R$ 12,00"
+            },
+            {
+              "nome": "Campari",
+              "preco": "R$ 12,00"
+            },
+            {
+              "nome": "Vodka Absolut",
+              "preco": "R$ 18,00"
+            },
+            {
+              "nome": "Gin Gordon’s",
+              "preco": "R$ 18,00"
+            },
+            {
+              "nome": "Tequila José Cuervo",
+              "preco": "R$ 25,00"
+            }
+          ]
+        },
+        {
+          "titulo": "Vinhos",
+          "imagem": "imagens/whisky-garrafa.svg",
+          "produtos": [
+            {
+              "nome": "Codici (Itália)",
+              "preco": "R$ 280,00"
+            },
+            {
+              "nome": "Pata Negra (Espanha)",
+              "preco": "R$ 200,00"
+            },
+            {
+              "nome": "Bolla Valpolicella (Itália)",
+              "preco": "R$ 215,00"
+            },
+            {
+              "nome": "Gato Negro (Chile)",
+              "preco": "R$ 80,00"
+            },
+            {
+              "nome": "Chilano (Chile)",
+              "preco": "R$ 57,00"
+            }
+          ]
+        },
+        {
+          "titulo": "Cafés",
+          "imagem": "imagens/cafe.svg",
+          "produtos": [
+            {
+              "nome": "Cappuccino",
+              "preco": "R$ 12,00"
+            },
+            {
+              "nome": "Expresso Nutella",
+              "preco": "R$ 15,00"
+            },
+            {
+              "nome": "Café achocolatado",
+              "preco": "R$ 12,00"
+            },
+            {
+              "nome": "Expresso",
+              "preco": "R$ 10,00"
+            },
+            {
+              "nome": "Café com chantilly",
+              "preco": "R$ 15,00"
+            },
+            {
+              "nome": "Expresso ao leite",
+              "preco": "R$ 12,00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "whisky",
+      "titulo": "Whisky",
+      "subtitulo": "Doses e garrafas",
+      "tipo": "whisky",
+      "imagem": "imagens/whisky-garrafa.svg",
+      "produtos": [
+        {
+          "nome": "Woodford Reserve",
+          "dose": "R$ 56,00",
+          "garrafa": "R$ 780,00"
+        },
+        {
+          "nome": "Hibiki Suntory 7 anos",
+          "dose": "R$ 109,00",
+          "garrafa": "R$ 1.400,00"
+        },
+        {
+          "nome": "Johnnie Walker Blue Label 21 anos",
+          "dose": "R$ 146,00",
+          "garrafa": "R$ 2.000,00"
+        },
+        {
+          "nome": "Johnnie Walker Green",
+          "dose": "R$ 64,00",
+          "garrafa": "R$ 850,00"
+        },
+        {
+          "nome": "Johnnie Walker Swing",
+          "dose": "R$ 105,00",
+          "garrafa": "R$ 1.500,00"
+        },
+        {
+          "nome": "Johnnie Walker Gold",
+          "dose": "R$ 44,00",
+          "garrafa": "R$ 615,00"
+        },
+        {
+          "nome": "Singleton 12 anos",
+          "dose": "R$ 38,00",
+          "garrafa": "R$ 500,00"
+        },
+        {
+          "nome": "Johnnie Walker Black Label",
+          "dose": "R$ 26,00",
+          "garrafa": "R$ 340,00"
+        },
+        {
+          "nome": "Buchanan’s 12 anos",
+          "dose": "R$ 28,00",
+          "garrafa": "R$ 400,00"
+        },
+        {
+          "nome": "Jack Daniel’s Tennessee Whiskey",
+          "dose": "R$ 24,00",
+          "garrafa": "R$ 290,00"
+        },
+        {
+          "nome": "Jack Daniel’s Apple",
+          "dose": "R$ 24,00",
+          "garrafa": "R$ 290,00"
+        },
+        {
+          "nome": "Jim Beam Bourbon",
+          "dose": "R$ 23,00",
+          "garrafa": "R$ 270,00"
+        },
+        {
+          "nome": "Chivas Regal 18",
+          "dose": "R$ 60,00",
+          "garrafa": "R$ 850,00"
+        },
+        {
+          "nome": "Chivas Regal 12",
+          "dose": "R$ 26,00",
+          "garrafa": "R$ 340,00"
+        },
+        {
+          "nome": "Ballantine’s 17 anos",
+          "dose": "R$ 62,00",
+          "garrafa": "R$ 860,00"
+        },
+        {
+          "nome": "Ballantine’s 12 anos",
+          "dose": "R$ 20,00",
+          "garrafa": "R$ 250,00"
+        },
+        {
+          "nome": "Old Parr 12",
+          "dose": "R$ 26,00",
+          "garrafa": "R$ 340,00"
+        },
+        {
+          "nome": "Johnnie Walker Red 8 anos",
+          "dose": "R$ 17,00",
+          "garrafa": "R$ 220,00"
+        },
+        {
+          "nome": "Ballantine’s Finest 8 anos",
+          "dose": "R$ 15,00",
+          "garrafa": "R$ 200,00"
+        },
+        {
+          "nome": "White Horse 8 anos",
+          "dose": "R$ 15,00",
+          "garrafa": "R$ 200,00"
+        },
+        {
+          "nome": "Teacher’s",
+          "dose": "R$ 12,00",
+          "garrafa": "R$ 200,00"
+        },
+        {
+          "nome": "Macallan 12 Double Cask",
+          "dose": "R$ 114,00",
+          "garrafa": "R$ 1.450,00"
+        },
+        {
+          "nome": "Aberlour Single Malt 14 anos",
+          "dose": "R$ 76,00",
+          "garrafa": "R$ 980,00"
+        }
+      ]
+    }
+  ]
+}
